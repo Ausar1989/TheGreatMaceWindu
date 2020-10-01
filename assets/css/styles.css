@@ -1,0 +1,64 @@
+body {
+    background-image: url("..//images/deepspace.gif");
+    background-size: cover;
+}
+#head {
+    color: rgb(228, 217, 217);
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: end;
+    letter-spacing: 1rem;
+}
+
+.characters {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border: solid green 3px;
+    max-width: 200px;
+}
+.charimage {
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    color: rgb(228, 217, 217);
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: .5rem;
+}
+.nametext {
+    position: absolute;
+    font-size: 14px;
+    color: black;
+    left: 55px;
+    top: 0;
+
+}
+
+.displayhealth {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+#attackbutton {
+    color: blueviolet;
+}
+
+#displayattack {
+    color: black;
+    background-color: white;
+}
+
+#displaycounter {
+    color: black;
+    background-color: white;
+}
+
+#restart {
+    display: none;
+}
